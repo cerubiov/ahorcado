@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a >Juego</a></li>
+                <li><a href="creditos.html">Creditos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <h1> Juego del Ahorcado</h1>
+        <div id="game-container">
+            <p id="palabra"></p>
+            <p id="mensaje"></p>
+            <div id="ahorcado">
+                <pre id="dibujo-ahorcado"></pre>
+            </div>
+            <div id="letras-usadas">
+                <h3>Letras usada: </h3>
+                <p id="letras"></p>
+            </div>
+            <input type="text" id="inputLetra" maxlength="1" placeholder="Ingresa una letra">
+            <button onclick="adivinarLetra()">Adivinar</button>
+        </div>
+    </section>
+    <footer>
+        <p>Todos los derechos reservados &copy; 2024 Creado By Emily</p>
+    </footer>
+    <script src="/js/script.js" ></script>
+</body>
+</html>
